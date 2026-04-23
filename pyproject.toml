@@ -1,0 +1,21 @@
+[project]
+name = "ai-data-analyst"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=2.32.0",
+    "groq>=0.4.1",
+    "pandas>=3.0.2",
+    "pydantic>=2.13.3",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.20.2",
+    "pytest>=9.0.3",
+    "ruff>=0.15.11",
+]
